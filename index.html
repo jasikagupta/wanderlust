@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--bootstrap scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+    <!--Google font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+
+    <!--FONTAWESOME ICON CDNS
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+
+    <title>Wanderlust</title>
+
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--favicon -->
+    <link rel="icon" href="monu.webp" style="border-radius:50px;">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-size: 2.25rem; color: rgb(255, 189, 0);"> Wanderlust
+                <!-- <img src="logo.webp" alt="Travel" class="rounded-pill" style="width:20px;"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar navbar-nav">
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#"> Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#about"> About</a>
+                    </li>
+                    <div class="dropdown" style="float:left;">
+                        <li class="nav-item px-3">
+                            <a class="nav-link text-white" href="#carouselExampleControls"> Categories</a>
+                        </li>
+                        <div class="dropdown-content" style="top:55px; left:0;">
+                            <a href="#">Accomodation</a>
+                            <a href="#">Sight-seeing</a>
+                            <a href="#">Events</a>
+                        </div>
+                    </div>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#review"> Reviews</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#contact"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background Image, text, button -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="hometext"><b>Unplug and find your wild</b>
+            <div class="col-md-12 text-center">
+                <a href="#carouselExampleControls" class="btn btn-outline-warning btn-lg" role="button"
+                    style="font-family: Arial, Helvetica, sans-serif;">
+                    Explore</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--- About section --->
+    <div id="about" class="aboutsection" style="background-color:rgb(0, 0, 0); color: rgb(184, 184, 184);">
+        <div class="row col-lg-9 col-md-12 col-sm-12" style="color:white; text-align:center;">
+            <img class="wave" src="wave.png" alt="wave" style="width: 180px; height:180px; margin-left: 37%;"><br>
+            <h2>Bonjour, Wanderers !</h2> <br>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-3 col-sm-12" style="color:rgb(154, 153, 153);"><br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus necessitatibus laboriosam,
+                recusandae quo commodi natus libero explicabo repellat distinctio sunt maxime nostrum animi
+                asperiores maiores dicta, officia placeat? Laudantium, maiores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus provident iusto soluta
+                consequuntur animi officia voluptatibus impedit eaque, omnis iure assumenda maiores quisquam
+                nisi veniam, nulla illo quaerat veritatis sapiente, odit ex ad eius ab eos, similique nemo recusandae?
+                <div class="box1">
+                    <img class="pop" src="pop.jpg">
+                </div>
+            </div>
+            <div class="row col-lg-12 col-md-12 col-sm-12" style="color:white; text-align: center;">
+                <h4>Discover our upcoming exciting expeditions !!</h4>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- Carousel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
+        pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video id="video" loop muted autoplay style="filter:brightness(70%); width:100%">
+                    <source src="1.mp4" type="video/mp4">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Hey there fellas!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis beatae veritatis quaerat
+                        repudiandae, magnam aliquid natus quibusdam a harum quas odio eius laborum possimus id ipsam
+                        commodi fuga accusamus exercitationem.</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <video id="video" loop muted autoplay style="filter:brightness(70%); width:100%;">
+                    <source src="2.mp4" type="video/mp4">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Hey there fellas!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis beatae veritatis quaerat
+                        repudiandae, magnam aliquid natus quibusdam a harum quas odio eius laborum possimus id ipsam
+                        commodi fuga accusamus exercitationem.</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <video id="video" loop muted autoplay style="filter:brightness(70%); width:100%;">
+                    <source src="3.mp4" type="video/mp4">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Hey there fellas!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis beatae veritatis quaerat
+                        repudiandae, magnam aliquid natus quibusdam a harum quas odio eius laborum possimus id ipsam
+                        commodi fuga accusamus exercitationem.</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    </div>
+
+    <!---Review section-->
+
+    <div class="black" style="height:100px; background-color:black"></div>
+    <div id="review" class="beer-image w-100 vh-100 d-flex justify-content-center align-items-center"></div>
+    <div class="black" style="height:50px; background-color:black"></div>
+    <!-- <div id="review" class="box2">
+        <img class="moony" src="moon.jpg">
+    </div>
+    <div class="ruru" style="background-color:black; height:660px;"></div> -->
+    
+   
+    <!---Contact page-->
+    <div id="contact" style="background-color:black;">
+    <img src="location.png" style="height:70px; width:70px;">
+
+        <div class="address" style="color:white; font-family:'Times New Roman', Times, serif;">
+            <p>ADDRESS<br>
+            71 Pilgrim Avenue Green Meadows, <br>
+            MD 201861</p>
+        </div>
+
+        <img src="phone.png" style="height:65px; width:63px;">
+        <div class="phone" style="color:white; font-family:'Times New Roman', Times, serif;">
+            <p>PHONE<br> 
+            +453-888-0000</p>
+        </div>
+
+        <img src="mail.png" style="height:70px; width:68px;">
+        <div class="email" style="color:white; font-family:'Times New Roman', Times, serif;">
+            <p>EMAIL<br>
+            queries.wanderlust101@yahoo.com</p>
+        </div></div>
+    
+    
+<footer>
+            <img class="map" src="map.png">
+        
+    </footer>
+   
+    <!-- <div class="map-image w-100 vh-100 d-flex justify-content-center align-items-center"></div> -->
+    <!-- <div id="contact" class="contact" style="background-color:black; height:610px;">
+        
+    </div>
+     -->
+
+</body>
+
+</html>
